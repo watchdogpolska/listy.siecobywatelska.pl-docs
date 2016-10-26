@@ -15,8 +15,8 @@ Strona internetowa list dyskusyjnych dostępna jest pod adresem `listy.siecobywa
 
     Przkładowa wiadomość z wskazaniem odnośnika do sekcji informacyjnej
 
-Prawo dostępu
-*************
+Autoryzacja
+***********
 
 Większość funkcji z pośrednictwem strony internetowej wymaga wcześniejszego logowania. Jest to proces nieskomplikowany i szczegółowo przedstawiony. Tylko po przeprowadzeniu logowania użytkownik ma prawo dostepu do niektórych treści, albo zmieniania swoich danych. Proces ten wymaga wcześniejszego zapisania na listę dyskusyjną i znajomości hasła. 
 
@@ -98,16 +98,22 @@ Po zalogowaniu do sekcji ustawień masz możliwość aktualizacji adresu e-mail.
 
 .. figure:: _images/change-email-form.png
     
-    Formularz zmiany adresu e-mail z zaznaczonymi krokami do wykonania
+    Formularz zmiany adresu e-mail
+
+Formularz zmiany adresu e-mail z zaznaczonymi krokami do wykonania
 Jeżeli chcesz zaktualizować adres e-mail na wszystkich listach dyskusyjnych w ramach strony listy.siecobywatelska.pl zaznacz pole "Change globally", które jest oznaczone na rysunku numerem 3. Jest to nieobowiązkowe. Na różnych listach dyskusyjnych możesz używać różnych adresów e-mail.
 
 Po zatwierdzeniu formularza zostanie wyświetlony komunikat o wysłaniu potwierdzenia:
 
-.. image:: _images/change-email-notification.png
+.. figure:: _images/change-email-notification.png
+    
+    Komunikat o wysłaniu potwierdzenia adresu e-mail
 
 Następnie otrzymasz na podany adres e-mail wiadomość z linkiem, w który należy wejść. Jest to niezbędne, aby potwierdzić zmianę i zweryfikować podany adres e-mail. Przykładowa treść wiadomości z odnośnikiem jest następująca:
 
-.. image:: _images/change-email-confirmation.png
+.. figure:: _images/change-email-confirmation.png
+
+    Wiadomość z potwierdzeniem adresu e-mail
 
 Wypisanie z listy dyskusyjnej
 *****************************
@@ -120,7 +126,7 @@ Istnieje kilka metod wypisania z list dyskusyjnych. Jednak najprostsza polega na
 
 Po zatwierdzeniu formularza uzyskasz potwierdzenie wypisania z danej listy dyskusyjnej:
 
-.. image:: _images/unsusbscribe-notification.png
+.. figure:: _images/unsusbscribe-notification.png
     
     Potwierdzenie wypisania z listy dyskusyjnej
 
