@@ -44,6 +44,7 @@ help:
 	@echo "  coverage   to run coverage check of the documentation (if enabled)"
 	@echo "  dummy      to check syntax errors of document sources"
 	@echo "  debian     to install os-dependencies for Debian for build PDF"
+	@echo "  python     to install python-dependencies"
 
 .PHONY: clean
 clean:
@@ -173,7 +174,7 @@ texinfo:
 info:
 	$(SPHINXBUILD) -b texinfo $(ALLSPHINXOPTS) $(BUILDDIR)/texinfo
 	@echo "Running Texinfo files through makeinfo..."
-	make -C $(BUILDDIR)/texinfo info
+	$(MAKE) -C $(BUILDDIR)/texinfo info
 	@echo "makeinfo finished; the Info files are in $(BUILDDIR)/texinfo."
 
 .PHONY: gettext
@@ -228,5 +229,11 @@ dummy:
 .PHONY: debian
 debian:
 	apt-get install texlive-latex-recommended texlive-latex-base texlive-latex-extra texlive-lang-polish
+	@echo
+	@echo "OS-dependency installation finished."
+
+.PHONY: python
+python:
+	pip install -r requirements.txt
 	@echo
 	@echo "OS-dependency installation finished."
