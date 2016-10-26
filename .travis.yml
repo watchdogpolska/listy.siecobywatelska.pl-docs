@@ -16,10 +16,21 @@ script:
 - ls -lah _build/latex
 
 deploy:
-  provider: releases
-  api_key:
-    secure: I/z4i81Mw3k538TiGtMLfy5UxMD1ujF6udMtRQwTnUGMqERI7LXjoC01doc6poTFzRh54IhUGmZG48v1tWNFSzs91ojOu6FwCxw5HPgtTQbrpDP2FbROzu1LEpL+xJYiOneO+R1KYRBY0PmzEEReOadyN/ruz2ZLAO3xpA2I3JV7Nr/OaOHMfi1QEGrOvSku99owTmQo5SBTIFIH86bglVXbr5UJM6mglm9rHerhe3byH56QSg5SANAxkQBBdpvkVkcr6Q9iXwxTxucb0QI5NBb4qvmTFisH+sI0+HezVuTJCVg9bE4QWPzaEhI6DKi/zHYITtmyu3ABHd3W6IRunEDEzXAUmXkSWLHMX6p7hgheJbEX/wEaYw9co8OxEZv2nU/UZ+8YlLbFmo7pn366re410zUzOWlqxUvqYH7R+3aZebuKnW0MdyfCp/cXuQzG+xkEHxFcfsoC2wmL3XGepYyw6rjOyLyV5d0tCsCOrAo4bmII/uvKjYO9cHfRyv+HiATCD2oS6nH9LEavQrMr89Iqhj5v1wxIBeIsHGo1k7ZiMXTs947Nga71njJFD7OABxtxahivvqvbMy4d4SrONSEhcwlpFTqHDDSOsoH7GJOUeZUVU4eLcDDIjtC+HZ3ERVACdr901YY9tN5RzCldtW5TgB/nfwWiJGofegcYyhc=
-  file: '_build/latex/listysiecobywatelskapl.pdf'
-  on:
-    repo: watchdogpolska/listy.siecobywatelska.pl-docs
-  skip_cleanup: true
+  - provider: releases
+    api_key:
+      secure: I/z4i81Mw3k538TiGtMLfy5UxMD1ujF6udMtRQwTnUGMqERI7LXjoC01doc6poTFzRh54IhUGmZG48v1tWNFSzs91ojOu6FwCxw5HPgtTQbrpDP2FbROzu1LEpL+xJYiOneO+R1KYRBY0PmzEEReOadyN/ruz2ZLAO3xpA2I3JV7Nr/OaOHMfi1QEGrOvSku99owTmQo5SBTIFIH86bglVXbr5UJM6mglm9rHerhe3byH56QSg5SANAxkQBBdpvkVkcr6Q9iXwxTxucb0QI5NBb4qvmTFisH+sI0+HezVuTJCVg9bE4QWPzaEhI6DKi/zHYITtmyu3ABHd3W6IRunEDEzXAUmXkSWLHMX6p7hgheJbEX/wEaYw9co8OxEZv2nU/UZ+8YlLbFmo7pn366re410zUzOWlqxUvqYH7R+3aZebuKnW0MdyfCp/cXuQzG+xkEHxFcfsoC2wmL3XGepYyw6rjOyLyV5d0tCsCOrAo4bmII/uvKjYO9cHfRyv+HiATCD2oS6nH9LEavQrMr89Iqhj5v1wxIBeIsHGo1k7ZiMXTs947Nga71njJFD7OABxtxahivvqvbMy4d4SrONSEhcwlpFTqHDDSOsoH7GJOUeZUVU4eLcDDIjtC+HZ3ERVACdr901YY9tN5RzCldtW5TgB/nfwWiJGofegcYyhc=
+    file: '_build/latex/listysiecobywatelskapl.pdf'
+    on:
+      repo: watchdogpolska/listy.siecobywatelska.pl-docs
+      tags: false
+    skip_cleanup: true
+    prerelease: true
+  - provider: releases
+    api_key:
+      secure: I/z4i81Mw3k538TiGtMLfy5UxMD1ujF6udMtRQwTnUGMqERI7LXjoC01doc6poTFzRh54IhUGmZG48v1tWNFSzs91ojOu6FwCxw5HPgtTQbrpDP2FbROzu1LEpL+xJYiOneO+R1KYRBY0PmzEEReOadyN/ruz2ZLAO3xpA2I3JV7Nr/OaOHMfi1QEGrOvSku99owTmQo5SBTIFIH86bglVXbr5UJM6mglm9rHerhe3byH56QSg5SANAxkQBBdpvkVkcr6Q9iXwxTxucb0QI5NBb4qvmTFisH+sI0+HezVuTJCVg9bE4QWPzaEhI6DKi/zHYITtmyu3ABHd3W6IRunEDEzXAUmXkSWLHMX6p7hgheJbEX/wEaYw9co8OxEZv2nU/UZ+8YlLbFmo7pn366re410zUzOWlqxUvqYH7R+3aZebuKnW0MdyfCp/cXuQzG+xkEHxFcfsoC2wmL3XGepYyw6rjOyLyV5d0tCsCOrAo4bmII/uvKjYO9cHfRyv+HiATCD2oS6nH9LEavQrMr89Iqhj5v1wxIBeIsHGo1k7ZiMXTs947Nga71njJFD7OABxtxahivvqvbMy4d4SrONSEhcwlpFTqHDDSOsoH7GJOUeZUVU4eLcDDIjtC+HZ3ERVACdr901YY9tN5RzCldtW5TgB/nfwWiJGofegcYyhc=
+    file: '_build/latex/listysiecobywatelskapl.pdf'
+    on:
+      repo: watchdogpolska/listy.siecobywatelska.pl-docs
+      tags: true
+    skip_cleanup: true
+    prerelease: false
