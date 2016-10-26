@@ -228,7 +228,7 @@ dummy:
 
 .PHONY: debian
 debian:
-	apt-get install texlive-latex-recommended texlive-latex-base texlive-latex-extra texlive-lang-polish
+	apt-get install texlive-latex-recommended texlive-latex-base texlive-latex-extra texlive-lang-polish texlive-fonts-recommended
 	@echo
 	@echo "OS-dependency installation finished."
 
