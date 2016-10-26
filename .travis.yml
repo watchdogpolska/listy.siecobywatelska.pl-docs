@@ -1,7 +1,11 @@
 language: python
 sudo: true
+
 python:
 - '2.7'
+
+fail_fast: true
+
 install:
 - make python
 - sudo make debian
