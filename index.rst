@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Podręcznik użytkownia strony listy.siecobywatelska.pl
-====================================================
+=====================================================
 
 Treść:
 
