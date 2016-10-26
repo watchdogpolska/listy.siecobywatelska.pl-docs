@@ -4,7 +4,7 @@ python:
 - '2.7'
 install:
 - make python
-- make debian
+- sudo make debian
 script:
 - sphinx-build -nW -b html -d _build/doctrees . _build/html
 - make latex
