@@ -1,0 +1,5 @@
+******************
+Strona internetowa
+******************
+
+Podstawowa funkcja list dyskusyjnych w postaci wymiany wiadomości jest realizowana z wykorzystaniem poczty elektronicznej. Jednak szereg funkcji jest obecnie możliwa do zrealizowania także, a często wyłącznie z wykorzystaniem strony internetowej, co jest wygodne. Dzięki temu można np. samodzielnie zaktualizować swój adres e-mail lub zapoznać się z archiwum.
