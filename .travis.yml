@@ -13,7 +13,6 @@ script:
 - sphinx-build -nW -b html -d _build/doctrees . _build/html
 - make latex
 - make latexpdf
-- ls -lah _build/latex
 
 deploy:
   - provider: releases
