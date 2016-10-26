@@ -6,8 +6,6 @@
 Podręcznik użytkownia strony listy.siecobywatelska.pl
 =====================================================
 
-Treść:
-
 .. toctree::
    :maxdepth: 2
 

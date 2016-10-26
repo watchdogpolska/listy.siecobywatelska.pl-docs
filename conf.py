@@ -85,7 +85,7 @@ language = 'pl'
 #
 # Else, today_fmt is used as the format for a strftime call.
 #
-# today_fmt = '%B %d, %Y'
+today_fmt = '%d %B %Y'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -247,41 +247,27 @@ htmlhelp_basename = 'listysiecobywatelskapldoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_elements = {
-     # The paper size ('letterpaper' or 'a4paper').
-     #
-     # 'papersize': 'letterpaper',
-
-     # The font size ('10pt', '11pt' or '12pt').
-     #
-     # 'pointsize': '10pt',
-
-     # Additional stuff for the LaTeX preamble.
-     #
-     # 'preamble': '',
-
-     # Latex figure (float) alignment
-     #
-     # 'figure_align': 'htbp',
-}
+latex_elements = {'classoptions': ',openany,oneside',
+                  'babel': '\\usepackage[polish]{babel}'}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'listysiecobywatelskapl.tex', u'Podręcznik użytkownia strony listy.siecobywatelska.pl',
+    (master_doc, 'listysiecobywatelskapl.tex',
+     u'Podręcznik użytkowania strony listy.siecobywatelska.pl',
      u'Adam Dobrawy', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
 #
-# latex_logo = None
+latex_logo = "_images/logo.jpg"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
 #
-# latex_use_parts = False
+latex_use_parts = True
 
 # If true, show page references after internal links.
 #
@@ -295,7 +281,7 @@ latex_documents = [
 #
 # latex_appendices = []
 
-# It false, will not define \strong, \code, 	itleref, \crossref ... but only
+# It false, will not define \strong, \code,     itleref, \crossref ... but only
 # \sphinxstrong, ..., \sphinxtitleref, ... To help avoid clash with user added
 # packages.
 #
