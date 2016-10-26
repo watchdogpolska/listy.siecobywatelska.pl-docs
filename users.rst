@@ -13,12 +13,12 @@ Strona internetowa list dyskusyjnych dostępna jest pod adresem `listy.siecobywa
 
 .. figure:: _images/link-in-email-footer.png
 
-    Przkładowa wiadomość z wskazaniem odnośnika do sekcji informacyjnej
+    Przykładowa wiadomość z wskazaniem odnośnika do sekcji informacyjnej
 
 Autoryzacja
 ***********
 
-Większość funkcji z pośrednictwem strony internetowej wymaga wcześniejszego logowania. Jest to proces nieskomplikowany i szczegółowo przedstawiony. Tylko po przeprowadzeniu logowania użytkownik ma prawo dostepu do niektórych treści, albo zmieniania swoich danych. Proces ten wymaga wcześniejszego zapisania na listę dyskusyjną i znajomości hasła. 
+Większość funkcji z pośrednictwem strony internetowej wymaga wcześniejszego logowania. Jest to proces nieskomplikowany i szczegółowo przedstawiony. Tylko po przeprowadzeniu logowania użytkownik ma prawo dostępu do niektórych treści, albo zmieniania swoich danych. Proces ten wymaga wcześniejszego zapisania na listę dyskusyjną i znajomości hasła. 
 
 
 Przypomnienie hasła
@@ -56,7 +56,7 @@ Wiadomość zawiera hasło niezbędne do zalogowania w dalszych etapach:
 Lista uczestników
 *****************
 
-W przypadku większości list dyskusyjnych z powodu m. in. ochrony przed spamem lista adresów e-mail uczestników nie jest publicznie dostępna. Wymagane jest wypełnienie odpowiedniego fomularza z podaniem Twojego e-maila uczestnika listy i Twojego hasła w sekcji informacyjnej właściwej dla danej listy dyskusyjnej np. `listy.siecobywatelska.pl/listinfo/dip_lista <https://listy.siecobywatelska.pl/listinfo/dip_lista>`_ :
+W przypadku większości list dyskusyjnych z powodu m. in. ochrony przed spamem lista adresów e-mail uczestników nie jest publicznie dostępna. Wymagane jest wypełnienie odpowiedniego formularza z podaniem Twojego e-maila uczestnika listy i Twojego hasła w sekcji informacyjnej właściwej dla danej listy dyskusyjnej np. `listy.siecobywatelska.pl/listinfo/dip_lista <https://listy.siecobywatelska.pl/listinfo/dip_lista>`_ :
 
 .. figure:: _images/member-list.png
     
@@ -70,7 +70,7 @@ Formularz ten stanowi - w niektórych przypadkach - element zapewnienie prywatno
 Ustawienia
 **********
 
-Jeżeli jesteś zainteresowany zmianą sposobu działania listy dyskusyjnej, sposobem dostarczania wiadomości lub chcesz zaktualizować swój adres e-mail powinieneś skorzystać z ustawień. Aby do nich się dostać wymagane jest wypełnienie odpowiedniego fomularza z podaniem Twojego adresu e-mail uczestnika listy w sekcji informacyjnej danej listy dyskusyjnej np. `listy.siecobywatelska.pl/listinfo/dip_lista <https://listy.siecobywatelska.pl/listinfo/dip_lista>`_ :
+Jeżeli jesteś zainteresowany zmianą sposobu działania listy dyskusyjnej, sposobem dostarczania wiadomości lub chcesz zaktualizować swój adres e-mail powinieneś skorzystać z ustawień. Aby do nich się dostać wymagane jest wypełnienie odpowiedniego formularza z podaniem Twojego adresu e-mail uczestnika listy w sekcji informacyjnej danej listy dyskusyjnej np. `listy.siecobywatelska.pl/listinfo/dip_lista <https://listy.siecobywatelska.pl/listinfo/dip_lista>`_ :
 
 .. figure:: _images/settings-email-form.png
     
