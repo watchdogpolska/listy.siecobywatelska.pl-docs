@@ -22,3 +22,4 @@ deploy:
   file: '_build/latex/listysiecobywatelskapl.pdf'
   on:
     repo: watchdogpolska/listy.siecobywatelska.pl-docs
+  skip_cleanup: true
