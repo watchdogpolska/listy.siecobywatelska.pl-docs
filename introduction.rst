@@ -13,4 +13,4 @@ Treść podręcznika stanowić została zorganizowana w trzech rozdziałach skie
 * administratora systemu - osoby, która jest odpowiedzialna za zapewnienie ciągłości funkcjonowania wszystkich list dyskusyjnch w zakresie technicznym i interwencje w przypadku nadużyć.
 
 
-Pragnę podkreślić, że niniejszy podręcznik nie zmierza do przedstawienia wszystkich możliwych funkcje wykorzystywanego oprogramowania, a zaprezentowania podstawowych funkcji, które są pożądane i instrukcji ich realizacji w najprostszy sposób. Jeżeli istnieje kilka metod osiągniecia określonych rezultatów to tylko wybrane metody są przedstawione.
+Pragnę podkreślić, że niniejszy podręcznik nie zmierza do przedstawienia wszystkich możliwych funkcji wykorzystywanego oprogramowania, a zaprezentowania podstawowych i najpopularniejszych funkcji, które są pożądane i instrukcji ich realizacji w najprostszy sposób. Jeżeli istnieje kilka metod osiągniecia określonych rezultatów to tylko wybrane metody są przedstawione.
