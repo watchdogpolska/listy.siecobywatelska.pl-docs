@@ -2,8 +2,7 @@
 Działania uczestnika listy
 **************************
 
-Strona internetowa
-******************
+Niniejsza część opisuje najpopularniejsze działania, które może podjąć użytkownik strony listy dyskusyjnej z wykorzystaniem strony internetowej.
 
 Podstawowa funkcja list dyskusyjnych w postaci wymiany wiadomości jest realizowana z wykorzystaniem poczty elektronicznej. 
 
@@ -91,6 +90,8 @@ W ten sposób uzyskałeś dostęp do sekcji ustawień, która zapewnia możliwo�
     
     Przycisk wylogowania
 
+.. _update-email:
+
 Aktualizacja adresu e-mail
 **************************
 
@@ -115,6 +116,14 @@ Następnie otrzymasz na podany adres e-mail wiadomość z linkiem, w który nale
 
     Wiadomość z potwierdzeniem adresu e-mail
 
+.. _signup:
+
+Dołączenie do listy dyskusyjnej
+*******************************
+
+ .. todo::
+    Udokumentować procedurę dodawania nowego członka do listy dyskusyjnej, z uwzględnieniem konieczności akceptacji nowego członka. Jak również przedstawić procedurę akceptacji nowego członka listy dyskusyjnej przez administratora.
+
 Wypisanie z listy dyskusyjnej
 *****************************
 
@@ -129,6 +138,8 @@ Po zatwierdzeniu formularza uzyskasz potwierdzenie wypisania z danej listy dysku
 .. figure:: _images/unsusbscribe-notification.png
     
     Potwierdzenie wypisania z listy dyskusyjnej
+
+.. _archive:
 
 Archiwum
 ********

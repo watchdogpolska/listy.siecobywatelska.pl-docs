@@ -6,7 +6,7 @@ Niniejszy podręcznik stanowić ma instrukcje użytkownia list dyskusyjnych `lis
 
 Jest sporządzony, aby zapewnić  wsparcie w efektywnym użytkowaniu strony internetowej. Ma także zapewnić podstawę do ujednolicenia konfiguracji list dyskusyjnych, a przez to zwiększyć przewidywalność i intuicyjność rozwiązania.
 
-Treść podręcznika stanowić została zorganizowana w trzech rozdziałach skierowanych dla różnej kategorii użytkowników:
+Treść podręcznika została zorganizowana w trzech rozdziałach skierowanych dla różnej kategorii użytkowników:
 
 * uczestnika listy - osoby, która nie posiada dodatkowych uprawnień, ale otrzymuje korespondencje i uczestniczy w dyskusjach,
 * opiekunowie listy - osoby, która odpowiada za funkcjonowanie jednej z list dyskusyjnych, dba o jej prawidłowe merytoryczne działanie,
