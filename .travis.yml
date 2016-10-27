@@ -10,7 +10,7 @@ install:
 - make python
 - sudo make debian
 script:
-- sphinx-build -nW -b html -d _build/doctrees . _build/html
+- make test
 - make latex
 - make latexpdf
 

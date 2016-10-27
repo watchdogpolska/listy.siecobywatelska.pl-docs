@@ -45,6 +45,8 @@ help:
 	@echo "  dummy      to check syntax errors of document sources"
 	@echo "  debian     to install os-dependencies for Debian for build PDF"
 	@echo "  python     to install python-dependencies"
+	@echo "  livehtml   to start a livereload enabled web server."
+	@echo "  test       to tests syntax errors."
 
 .PHONY: clean
 clean:
@@ -237,3 +239,12 @@ python:
 	pip install -r requirements.txt
 	@echo
 	@echo "OS-dependency installation finished."
+
+.PHONY: livehtml
+livehtml:
+	sphinx-autobuild -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+
+.PHONY: test
+test:
+	make clean
+	$(SPHINXBUILD) -nW -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
