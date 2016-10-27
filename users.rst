@@ -62,7 +62,7 @@ W przypadku większości list dyskusyjnych z powodu m. in. ochrony przed spamem 
     Formularz logowania do wykazu uczestników listy dyskusyjnej
 
 .. note::
-    Jeżeli nie znasz swojego hasła - przejdź do rozdziału `Przypomnienie hasła`_.
+    Jeżeli nie znasz swojego hasła - przejdź do sekcji `Przypomnienie hasła`_.
 
 Formularz ten stanowi - w niektórych przypadkach - element zapewnienie prywatności dla uczestników list dyskusyjnych. Możliwość rozpowszechniania wiedzy o członkach listy wynika z polityki danej listy dyskusyjnej. Aby uzyskać wiedzę czy jest to postępowanie akceptowane skontaktuj się z opiekunem listy dyskusyjnej wskazanym na dole strony informacyjnej.
 
@@ -82,7 +82,7 @@ Następnie konieczne jest podanie Twojego hasła i wybranie przycisku "Zaloguj":
     Formularz podania hasła użytkownika do ustawień listy dyskusyjnej z zaznaczoną kolejnoscią kroków do wykonania
 
 .. note::
-    Jeżeli nie znasz swoje hasła - przejdź do rozdziału `Przypomnienie hasła`_.
+    Jeżeli nie znasz swoje hasła - przejdź do sekcji `Przypomnienie hasła`_.
 
 W ten sposób uzyskałeś dostęp do sekcji ustawień, która zapewnia możliwość m. in. aktualizacji adresu e-mail (zob. `Aktualizacja adresu e-mail`_) lub wypisanie z listy dyskusyjnej (zob. `Wypisanie z listy dyskusyjnej`_). Pamiętaj, aby po skończonej pracy wylogować się:
 
@@ -95,7 +95,7 @@ W ten sposób uzyskałeś dostęp do sekcji ustawień, która zapewnia możliwo�
 Aktualizacja adresu e-mail
 **************************
 
-Po zalogowaniu do sekcji ustawień masz możliwość aktualizacji adresu e-mail. Procedura logowania do sekcji ustawień danej listy została przedstawiona w rozdziale "`Ustawienia`_". Zmiana adresu e-mail jest możliwa poprzez wprowadzenie nowego adresu e-mail w dostępnym w tej sekcji formularzu:
+Po zalogowaniu do sekcji ustawień masz możliwość aktualizacji adresu e-mail. Procedura logowania do sekcji ustawień danej listy została przedstawiona w sekcji "`Ustawienia`_". Zmiana adresu e-mail jest możliwa poprzez wprowadzenie nowego adresu e-mail w dostępnym w tej sekcji formularzu:
 
 .. figure:: _images/change-email-form.png
     
@@ -127,7 +127,7 @@ Dołączenie do listy dyskusyjnej
 Wypisanie z listy dyskusyjnej
 *****************************
 
-Istnieje kilka metod wypisania z list dyskusyjnych. Jednak najprostsza polega na wykorzystaniu ustawień listy dyskusyjnej. Należy zalogować się do ustawień listy dyskusyjnej zgodnie z rozdziałem `Ustawienia`_ . Następnie skorzystać z odpowiedniego formularza:
+Istnieje kilka metod wypisania z list dyskusyjnych. Jednak najprostsza polega na wykorzystaniu ustawień listy dyskusyjnej. Należy zalogować się do ustawień listy dyskusyjnej zgodnie z sekcją `Ustawienia`_ . Następnie skorzystać z odpowiedniego formularza:
 
 .. figure:: _images/unsusbscribe-form.png
     
@@ -159,7 +159,7 @@ Następnie należy wprowadzić swój adres e-mail i hasło, a następnie zatwier
     Formularz logowania do archiwum listy dyskusyjnej
 
 .. note::
-    Jeżeli nie znasz swojego hasła - przejdź do rozdziału `Przypomnienie hasła`_.
+    Jeżeli nie znasz swojego hasła - przejdź do sekcji `Przypomnienie hasła`_.
 
 W efekcie otrzymasz miesięczne zestawienie wiadomości:
 
