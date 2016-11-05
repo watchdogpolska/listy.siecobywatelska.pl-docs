@@ -40,6 +40,8 @@ Na stronie głównej sekcji administracyjnej listy odnajdź pole "Zwięzły opis
 .. TIP::
    Sugeruje się budowanie opisu list dyskusyjnych poprzez dokończenie zdania "Jest to lista dyskusyjna ...". Przykładowa "Jest to lista dyskusyjna... ekspercka na temat sytuacji prawa człowieka do informacji".
 
+W przeciętnej wykorzystaniu listy dyskusyjnej nie zachodzi konieczność wprowadzania dodatkowych zmian w ustawieniach, gdyż optymalne są ustalane ustawienia przez administratora systemu.
+
 Po wprowadzeniu zmian w niniejszej sekcji zapisz je naciskając przycisk "Zatwierdź". Następnie dodaj się do listy dyskusyjnej zgodnie z procedurą :ref:`admin_signup`.
 
 Teraz możesz sprawdzić działanie poprzez przesłanie wiadomości na adres listy dyskusyjnej. Po minucie lub dwóch treść powinna się pojawić w :ref:`archive` .
