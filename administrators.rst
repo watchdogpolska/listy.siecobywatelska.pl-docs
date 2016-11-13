@@ -43,3 +43,38 @@ Monitoring
 Codziennie jest dokonywany przegląd dziennika serwera pocztowego w celu analizy trwałych odrzuceń wiadomości (hard bounces). Raport w tym zakresie jest przekazywany do administratora systemu. Przegląd wykonywany jest przez skrypt w ``/etc/cron.daily/bounces_report``.
 
 Trwale są gromadzone metryki z działania całego systemu operacyjnego z wykorzystaniem oprogramowaniem Zabbix.
+
+Masowa aktualizacja ustawień
+****************************
+
+W celu dokonania masowej aktualizacji określonych ustawień wszystkich list dyskusyjnych należy wykorzystać narzędzie ``config_list``.
+
+Pierw należy zidentyfikować odpowiednią wartość poprzez analizę ``config_list -o - TEST``.
+
+Następnie należy dokonać modyfikacji wartości z użyciem następującego kodu:
+
+.. code-block:: bash
+
+    list_lists  | grep ' - ' | awk '{print $1}' | while read LIST; do
+        echo "# -*- coding: utf-8 -*-
+    variable = 'value'
+    " > settings.py;
+        config_list -i settings.py "$LIST";
+        echo "$LIST updated";
+    done;
+
+Masowa aktualizacj języka użytkowników
+**************************************
+
+W celu dokonania masowej aktualizacji języka uczestników danej listy dyskusyjnej należy wykorzystać narzędzie ``withlist`` oraz odpowiedni kod Python, który dokona modyfikacji parametrów wszystkich użytkowników. 
+
+Należy w pliku ``member_language.py`` zapisać treść:
+
+.. code-block:: python
+
+    def member_language(m):
+        for member in m.members:
+            m.setMemberLanguage(member, 'pl')
+        m.Save()
+
+Następnie wywołać go z uzpełnieniem ``PYTHONPATH`` o ścieżkę do w/w pliku. Przykładowo ``PYTHONPATH="$(pwd)" python /usr/sbin/withlist -l  -r member_language "$LIST"``.
