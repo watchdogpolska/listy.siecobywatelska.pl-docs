@@ -4,7 +4,7 @@ Działania administratora systemu
 
 Niniejsza część opisuje niektóre działania administracyjne odnoszące się zarówno do samego oprogramowania Mailman, ale także - jeżeli to konieczne - konserwacyjnych prac związanych z serwerem pocztowym, serwerem WWW i systemem operacyjnym w ogóle.
 
-Zmiana haseł systemowych i tworzenie list
+Zmiana hasła systemowego i tworzenia list
 *****************************************
 
 Do ustawienia hasła administratora serwera wykorzystaj polecenie konsoli: ``mmsitepass <twoje-haslo>``
