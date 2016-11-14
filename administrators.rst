@@ -24,6 +24,14 @@ Generowane są statystyki serwera pocztowego i ruchu WWW w celu diagnozowania na
 
     Statystyki przesłanych wiadomości w okresie tygodnia
 
+Możliwe jest także wykorzystanie prostych skryptów do sporządzenia statystyk. 
+
+Najpopularniejsi członkowie: ``list_lists -b | while read LINE; do list_members $LINE; done | sort -n | uniq -c | sort -n | more``
+
+Łączna liczba członków: ``list_lists -b | while read LINE; do list_members $LINE; done | wc -l``
+
+Liczba członków na poszczególnych listach: ``list_lists -b | while read LINE; do echo "$LINE;$(list_members $LINE | wc -l)"; done;``
+
 Usuwanie listy dyskusyjnej
 **************************
 
@@ -55,7 +63,7 @@ Następnie należy dokonać modyfikacji wartości z użyciem następującego kod
 
 .. code-block:: bash
 
-    list_lists  | grep ' - ' | awk '{print $1}' | while read LIST; do
+    list_lists -b | while read LIST; do
         echo "# -*- coding: utf-8 -*-
     variable = 'value'
     " > settings.py;
