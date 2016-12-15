@@ -248,7 +248,8 @@ htmlhelp_basename = 'listysiecobywatelskapldoc'
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {'classoptions': ',openany,oneside',
-                  'babel': '\\usepackage[polish]{babel}'}
+                  'babel': '\\usepackage[polish]{babel}',
+                  'figure_align': 'H'}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
