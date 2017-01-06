@@ -12,5 +12,5 @@ Podręcznik użytkownia strony listy.siecobywatelska.pl
 
    sections/introduction
    sections/users
-   sections/moderators
+   sections/owners
    sections/administrators

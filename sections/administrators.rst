@@ -4,8 +4,43 @@ Działania administratora systemu
 
 Niniejsza część opisuje niektóre działania administracyjne odnoszące się zarówno do samego oprogramowania Mailman, ale także - jeżeli to konieczne - konserwacyjnych prac związanych z serwerem pocztowym, serwerem WWW i systemem operacyjnym w ogóle.
 
-Zmiana hasła systemowego i tworzenia list
-*****************************************
+Utworzenie listy dyskusyjnej
+****************************
+
+ .. note::
+    Do wykonania tej operacji wymagana jest znajomość hasła zarządzania listą dyskusyjną (zob. :ref:`passwords`). Przez przejściem do wykonania przedstawionych czynności - upewnij się, że nim dysponujesz.
+
+Aby dodać nową listę dyskusyjną przejdź do `formularza dodawania list dyskusyjnych <https://listy.siecobywatelska.pl/create>`_, który jest dostępny po przejściu z wykazu stron informacyjnych po wybraniu głównej strony administracyjnej, a następnie linku odnoszącego się do zakładania nowych list dyskusyjnych.
+
+Możesz utworzyć nową listę wpisując niezbędne informacje w formularzu. Nazwa listy będzie występowała w adresie e-mail służącym do wysyłania wiadomości, więc jej nazwa powinna być wpisana małymi literami. Zmiana tej nazwy po założeniu listy jest niemożliwa.
+
+Musisz podać też adres administratora listy. Po jej założeniu, administrator otrzyma potwierdzający e-mail wraz z początkowym hasłem. Administrator listy będzie mógł je zmienić, a także dodawać i usuwać dodatkowych administratorów. Adres ten będzie publicznie dostępny jako adres opiekuna listy dyskusyjnej.
+
+Jeśli chcesz aby Mailman wygenerował hasło automatycznie kliknij "Tak" w odpowiednim polu poniżej i pozostaw pola na hasło puste.
+
+Musisz mieć odpowiednie uprawnienia aby założyć nową listę. Każdy serwer powinien mieć hasło osoby uprawnionej do tworzenia nowych list, które wprowadza się w polu na dole strony. Można też użyć hasła.
+
+W zdecydowanej większości przypadków na pytanie "Czy wstrzymywać do moderowania wiadomości od nowo zapisanych osób?" chcesz odpowiedzieć "Nie". Jest to zachowanie typowe dla list dyskusyjnych, gdzie wpisy nie muszą być akceptowane przez administratora przed skierowaniem ich do pozostałych odbiorców. W innym przypadku każdy wpis będzie wymagał zaakceptowania przez opiekuna listy. Ustawienie to może zostać zmienione.
+
+Po wypełnieniu formularza przejdź do sekcji administracyjnej listy. Możesz to zrobić poprzez odnośnik na ekranie potwierdzenia, albo poprzez odnośnik zawarty w wiadomości wysłanej do administratora listy.
+
+Na stronie głównej sekcji administracyjnej listy odnajdź pole "Zwięzły opis listy" i wypełnij je, aby odzwierciedlał on przeznaczenie danej listy. Zdefiniujesz w ten sposób przedmiot listy, a także usprawnisz np. wygaszenie archiwalnych list.
+
+.. figure:: ../_images/admin-description-field.png
+
+    Lokalizacja pola "Zwięzły opis listy" w głównej sekcji administracyjnej listy
+
+.. TIP::
+   Sugeruje się budowanie opisu list dyskusyjnych poprzez dokończenie zdania "Jest to lista dyskusyjna ...". Przykładowa "Jest to lista dyskusyjna... ekspercka na temat sytuacji prawa człowieka do informacji".
+
+W przeciętnej wykorzystaniu listy dyskusyjnej nie zachodzi konieczność wprowadzania dodatkowych zmian w ustawieniach, gdyż optymalne są ustalane ustawienia przez administratora systemu.
+
+Po wprowadzeniu zmian w niniejszej sekcji zapisz je naciskając przycisk "Zatwierdź". Następnie dodaj się do listy dyskusyjnej zgodnie z procedurą :ref:`admin_signup`.
+
+Teraz możesz sprawdzić działanie poprzez przesłanie wiadomości na adres listy dyskusyjnej. Po minucie lub dwóch treść powinna się pojawić w :ref:`archive` .
+
+Zmiana hasła systemowego i hasła tworzenia list
+***********************************************
 
 Do ustawienia hasła administratora serwera wykorzystaj polecenie konsoli: ``mmsitepass <twoje-haslo>``
 

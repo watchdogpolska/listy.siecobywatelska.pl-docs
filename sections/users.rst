@@ -14,8 +14,8 @@ Strona internetowa list dyskusyjnych dostępna jest pod adresem `listy.siecobywa
 
     Przykładowa wiadomość z wskazaniem odnośnika do sekcji informacyjnej
 
-Autoryzacja
-***********
+Logowanie
+*********
 
 Większość funkcji z pośrednictwem strony internetowej wymaga wcześniejszego logowania. Jest to proces nieskomplikowany i szczegółowo przedstawiony. Tylko po przeprowadzeniu logowania użytkownik ma prawo dostępu do niektórych treści, albo zmieniania swoich danych. Proces ten wymaga wcześniejszego zapisania na listę dyskusyjną i znajomości hasła. 
 
