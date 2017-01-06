@@ -33,7 +33,7 @@ Po wypełnieniu formularza przejdź do sekcji administracyjnej listy. Możesz to
 
 Na stronie głównej sekcji administracyjnej listy odnajdź pole "Zwięzły opis listy" i wypełnij je, aby odzwierciedlał on przeznaczenie danej listy. Zdefiniujesz w ten sposób przedmiot listy, a także usprawnisz np. wygaszenie archiwalnych list.
 
-.. figure:: _images/admin-description-field.png
+.. figure:: ../_images/admin-description-field.png
 
     Lokalizacja pola "Zwięzły opis listy" w głównej sekcji administracyjnej listy
 
@@ -53,19 +53,19 @@ Dodawanie członka do listy dyskusyjnej
 
 Aby dodać nowego członka do listy dyskusyjnej przejdź do sekcji administracyjnej listy dyskusyjnej. Możesz to zrobić poprzez odnośnik zawarty w stopce strony informacyjnej listy wskazanej w każdej wiadomości:
 
-.. figure:: _images/link-to-admin-section.png
+.. figure:: ../_images/link-to-admin-section.png
 
     Odnośnik do sekcji administracyjnej listy dyskusyjnej
 
 Wymagane jest uwierzytelnienie z wykorzystaniem hasła zarządzania daną listą dyskusyjna lub hasłem systemowym (zob. `Hasła`_ ). W menu sekcji administracyjnej listy wybierz "Zarządzanie prenumeratą..." i "Hurtowe zapisywanie".
 
-.. figure:: _images/admin-menu-add.png
+.. figure:: ../_images/admin-menu-add.png
 
     Menu z zaznaczonym dojściem do sekcji hurtowego zapisywania
 
 W wyświetlonym formularzu podaj swój adres e-mail w polu i wybierz przycisk "Zatwierdz".
 
-.. figure:: _images/admin-add-email.png
+.. figure:: ../_images/admin-add-email.png
 
     Formularz hurtowego zapisywania członków listy
 

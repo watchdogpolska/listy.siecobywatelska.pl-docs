@@ -9,7 +9,7 @@ Podręcznik użytkownia strony listy.siecobywatelska.pl
 .. toctree::
    :maxdepth: 2
 
-   introduction
-   users
-   moderators
-   administrators
+   sections/introduction
+   sections/users
+   sections/moderators
+   sections/administrators

@@ -20,7 +20,7 @@ Statystyki
 
 Generowane są statystyki serwera pocztowego i ruchu WWW w celu diagnozowania nadużyć itp. Dostępne są one pod adresem ``https://listy.siecobywatelska.pl/awstats``. W celu zarządzaniem uprawnieniami dostępu wykorzystaj polecenie ``htpasswd`` wobec ``/etc/awstats/htpasswd``. Jest dostępna informacja m. in. na temat liczby przesłanych wiadomości i ich rozmiaru:
 
-.. figure:: _images/awstats-daily.png
+.. figure:: ../_images/awstats-daily.png
 
     Statystyki przesłanych wiadomości w okresie tygodnia
 
