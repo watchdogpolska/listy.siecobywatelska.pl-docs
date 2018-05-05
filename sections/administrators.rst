@@ -121,3 +121,13 @@ Należy w pliku ``member_language.py`` zapisać treść:
         m.Save()
 
 Następnie wywołać go z uzpełnieniem ``PYTHONPATH`` o ścieżkę do w/w pliku. Przykładowo ``PYTHONPATH="$(pwd)" python /usr/sbin/withlist -l  -r member_language "$LIST"``.
+
+Aktualizacja e-maila
+********************
+
+W celu zaktualizowania adresu e-mail wykonaj:
+
+.. code-block:: bash
+   
+   $ clone_member -r [stary_adres] [nowy_adres]
+   
